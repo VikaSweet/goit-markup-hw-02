@@ -66,6 +66,10 @@
   height: 16px;
   left: 453px;
   top: 32px;
+  cursor: pointer;
+  }
+  .nav-imgs {
+    cursor: pointer;
   }
 .studio-button {
   position: absolute;
