@@ -362,9 +362,11 @@ top: 1449px;
 background: #F5F4FA;
 }
 .title-our-staff {
-height: 42px;
-left: 668px;
-top: 1543px;
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
 }
 .name-staff {
   font-family: var(--primary-font-family);
@@ -512,10 +514,10 @@ top: 2097px;
 background: #2F303A;
 }
 .footer-logo {
-width: 145px;
-height: 31px;
-left: 215px;
-top: 2157px;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px;
 }
 .text-web-footer {
   font-family: var(--secondary-font-family);
@@ -578,33 +580,81 @@ top: 2268px
 
 /*--header-portfolio-*/
 .body-portfolio {
-  background-color: #E5E5E5;;
+ position: relative;
+width: 1600px;
+height: 1880px;
+background: #FFFFFF;
+}
+.main-portfolio {
+position: absolute;
+width: 1170px;
+height: 1360px;
+left: 215px;
+top: 174px;
 }
 /*--buttons-style--*/
+.nav-button:hover {
+  background: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;}
+  .nav-button:focus {
+  background: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;}
+  .text-bt {
+    color: var(--primary-text-color);
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+      }
+      .text-bt:hover {
+        color:#FFFFFF;
+      }
+      .text-bt:focus {
+        color: #ffffff;
+      }
 .button-all-position {
-width: 16px;
-height: 16px;
-left: 546px;
-top: 212px;
+  position: absolute;
+width: 73px;
+height: 38px;
+left: 495px;
+top: 174px;
 background: #F5F4FA;
-  border-radius: 4px;
+border-radius: 4px;
+}
+.position-text-all {
+height: 26px;
+left: 517px;
 }
 .button-web-sites-position {
+  position: absolute;
   width: 128px;
   height: 38px;
   left: 576px;
   top: 174px;
-    background: #F5F4FA;
+  background: #F5F4FA;
   border-radius: 4px;
-}
-.button-applications-position {
-  position: absolute;
+  }
+  .position-text-websites {
+height: 26px;
+left: 598px;
+  }
+ .button-applications-position {
+position: absolute;
 width: 145px;
 height: 38px;
 left: 712px;
 top: 174px;
 background: #F5F4FA;
 border-radius: 4px;
+}
+.position-text-applications {
+  height: 26px;
+  left: 734px;
 }
 .button-designe-position {
   position: absolute;
@@ -615,13 +665,257 @@ top: 174px;
 background: #F5F4FA;
 border-radius: 4px;
 }
+.position-text-designe {
+  height: 26px;
+left: 887px;
+}
 .button-marketing-position {
 position: absolute;
 width: 130px;
 height: 38px;
 left: 976px;
 top: 174px;
-
 background: #F5F4FA;
 border-radius: 4px;
+}
+.position-text-marketing {
+  height: 26px;
+left: 998px;
+}
+.nav-card {
+   width: 370px;
+  height: 404px;
+   background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  }
+.nav-img {
+  width: 370px;
+  height: 294px;
+  }
+.text-img {
+  font-family: var(--primary-font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+ }
+.name-img {
+  font-family: var(--primary-font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+   letter-spacing: 0.03em;
+   color: var(--secondary-text-color) ;
+ }
+.position-card-technokryak {
+  left: 215px;
+  top: 262px;
+}
+.position-img-technokryak {
+  left: 215px;
+  top: 262px;
+  background: url(portfolio1.jpg);
+}
+.title-position-technokryak {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 576px;
+  }
+.name-position-technokryak {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 239px;
+  top: 616px;
+}
+.position-card-poster {
+  left: 615px;
+  top: 262px;
+}
+.position-img-poster {
+  left: 615px;
+  top: 262px;
+ background: url(portfolio2.jpg);
+}
+.title-position-poster {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 639px;
+  top: 576px;
+}
+.name-position-poster {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 639px;
+  top: 616px;
+}
+.position-card-seafood-restr {
+  left: 1015px;
+  top: 262px;
+}
+.position-img-seafood-restr {
+  left: 1015px;
+  top: 262px;
+  background: url(portfolio-1.jpg);
+}
+.title-position-seafood-restr {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 1039px;
+  top: 576px;
+}
+.name-position-seafood-restr {
+  position: absolute;
+width: 322px;
+height: 30px;
+left: 1039px;
+top: 616px;
+}
+.position-card-prj-prime {
+  left: 215px;
+  top: 696px;
+}
+.position-img-prj-prime {
+  left: 215px;
+  top: 696px;
+  background: url(portfolio-2.jpg);
+}
+.title-position-prj-prime {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 1010px;
+}
+.name-position-prj-prime {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 239px;
+  top: 1050px;
+}
+.position-card-prj-boxes {
+  left: 615px;
+  top: 696px;
+}
+.position-img-prj-boxes {
+  left: 615px;
+  top: 696px;
+  background: url(portfolio5.jpg);
+}
+.title-position-prj-boxes {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 639px;
+  top: 1010px;
+}
+.name-position-prj-boxes {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 639px;
+  top: 1050px;
+}
+.position-card-inspiration {
+  left: 1015px;
+   top: 696px;
+}
+.position-img-inspiration {
+  left: 1015px;
+  top: 696px;
+  background: url(111.jpg);
+}
+.title-position-inspiration {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 1039px;
+  top: 1010px;
+}
+.name-position-inspiration {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 1039px;
+  top: 1050px;
+}
+
+.position-card-limited {
+  left: 215px;
+  top: 1130px;
+}
+.position-img-limited {
+  left: 215px;
+  top: 1130px;
+  background: url(portfolio7.jpg);
+}
+.title-position-limited {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 1444px;
+}
+.name-position-limited {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 239px;
+  top: 1484px;
+}
+.position-card-prj-lab {
+  left: 615px;
+  top: 1130px;
+}
+.position-img-prj-lab {
+  left: 615px;
+  top: 1130px;
+  background: url(portfolio8.jpg);
+}
+.title-position-prj-lab {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 639px;
+  top: 1444px;
+}
+.name-position-prj-lab {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 639px;
+  top: 1484px;
+}
+.position-card-growing {
+  left: 1015px;
+  top: 1130px;
+}
+.position-img-growing {
+  left: 1015px;
+  top: 1130px;
+  background: url(2910404.jpg);
+}
+.title-position-growing {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 1039px;
+  top: 1444px;
+}
+.name-position-growing {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 1039px;
+  top: 1484px;
 }
