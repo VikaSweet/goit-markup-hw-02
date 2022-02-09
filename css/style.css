@@ -2,17 +2,19 @@
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
+  --third-text-color: #2196F3;
   --primary-font-family: Roboto, sans-serif;
   --secondary-font-family: Raleway, sans-serif;
   --accent-color: #2196f3;
   --background-origin: #ffffff;
-  --background-first-composite: #2F303A;
-  --background-second-composite: #F5F4FA;
+  --background-first-composite: #2f303a;
+  --background-second-composite: #f5f4fa;
 }
 /*--body-style--*/
 .body {
-font-family: var(--primary-font-family), var(--secondary-font-family),sans-serif;
-font-style: normal;
+  font-family: var(--primary-font-family), var(--secondary-font-family),
+    sans-serif;
+  color: var(--primary-text-color);
   background: #e5e5e5;
   width: 1600px;
 }
@@ -20,3 +22,46 @@ font-style: normal;
   list-style: none;
   text-decoration: none;
 }
+/*--------INDEX-PAGE--------*/
+
+/*--header-navigation--*/
+.text-logo {
+  font-family: var(--secondary-font-family);
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+color: var(--third-text-color);
+}
+.logo-text-studio {
+  color: var(--primary-text-color);
+}
+.button-nav:hover { 
+  color: var(--accent-color);
+}
+.button-nav:focus { 
+color: var(--accent-color);
+}
+.text-nav-buttons {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+
+}
+.nav-accent {
+  color: var(--accent-color);
+}
+.nav-contats:hover {
+  color: var(--accent-color);
+}
+.nav-contats:focus {
+  color: var(--accent-color);
+}
+.contact-nav {}
+.text-nav-contacts {}
+
+/*--hero--------------*/
