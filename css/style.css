@@ -139,6 +139,9 @@
 }
 
 /*--footer--------*/
+.footer {
+  background-color: var(--background-first-composite);
+}
 .text-logo-footer {
   color: var(--third-text-color);
 }
