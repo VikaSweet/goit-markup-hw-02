@@ -37,6 +37,10 @@
 .logo-text-studio {
   color: var(--primary-text-color);
 }
+.nav-buttons {
+  cursor: pointer;
+  background-color: var(--background-origin)
+}
 .nav-link:hover {
   color: var(--accent-color);
 }
@@ -74,6 +78,10 @@
   line-height: 1.363;
   letter-spacing: 0.06em;
   color: var(--third-text-color);
+}
+.button-order {
+  cursor: pointer;
+  background-color: var(--accent-color) 
 }
 .text-button-order {
   font-style: normal;
@@ -157,7 +165,7 @@
 }
 /*--buttons----*/
 
-.nav-buttons {
+.portfolio-buttons {
   cursor: pointer;
   background-color: var(--background-second-composite);
   border-radius: 4px;
