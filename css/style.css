@@ -37,10 +37,10 @@ color: var(--third-text-color);
 .logo-text-studio {
   color: var(--primary-text-color);
 }
-.text-nav-buttons:hover {
+.nav-link:hover {
   color: var(--accent-color);
 }
-.text-nav-buttons:focus { 
+.nav-link:focus { 
 color: var(--accent-color);
 }
 .text-nav-buttons {
@@ -52,12 +52,6 @@ letter-spacing: 0.02em;
 color: var(--primary-text-color);
 }
 .nav-accent {
-  color: var(--accent-color);
-}
-.text-nav-contacts:hover {
-  color: var(--accent-color);
-}
-.text-nav-contacts:focus {
   color: var(--accent-color);
 }
 .text-nav-contacts {
