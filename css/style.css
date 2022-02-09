@@ -37,10 +37,10 @@ color: var(--third-text-color);
 .logo-text-studio {
   color: var(--primary-text-color);
 }
-.nav-buttons:hover {
+.text-nav-buttons:hover {
   color: var(--accent-color);
 }
-.nav-buttons:focus { 
+.text-nav-buttons:focus { 
 color: var(--accent-color);
 }
 .text-nav-buttons {
@@ -54,10 +54,10 @@ color: var(--primary-text-color);
 .nav-accent {
   color: var(--accent-color);
 }
-.nav-contats:hover {
+.text-nav-contacts:hover {
   color: var(--accent-color);
 }
-.nav-contats:focus {
+.text-nav-contacts:focus {
   color: var(--accent-color);
 }
 .text-nav-contacts {
