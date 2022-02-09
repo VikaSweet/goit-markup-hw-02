@@ -2,7 +2,7 @@
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
-  --third-text-color: #2196F3;
+  --third-text-color: #ffffff;
   --primary-font-family: Roboto, sans-serif;
   --secondary-font-family: Raleway, sans-serif;
   --accent-color: #2196f3;
@@ -32,7 +32,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.192;
 letter-spacing: 0.03em;
-color: var(--third-text-color);
+color: var(--accent-color);
 }
 .logo-text-studio {
   color: var(--primary-text-color);
@@ -64,3 +64,19 @@ color: var(--secondary-text-color);
 }
 
 /*--hero--------------*/
+.title-hero {
+  font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.363;
+letter-spacing: 0.06em;
+color: var(--third-text-color);
+}
+.button-order {
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.06em;
+color: var(--third-text-color);
+}
