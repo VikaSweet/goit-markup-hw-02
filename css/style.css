@@ -12,14 +12,14 @@
 }
 /*--body-style--*/
 .body {
-  font-family: var(--primary-font-family), var(--secondary-font-family),
-    sans-serif;
+  font-family: var(--primary-font-family);
   color: var(--primary-text-color);
-  background: var(--background-origin);
-  width: 1600px;
+  background-color: var(--background-origin);
+  }
+.list {
+  list-style: none;
 }
 .link {
-  list-style: none;
   text-decoration: none;
 }
 /*--------INDEX-PAGE--------*/
@@ -27,19 +27,14 @@
 /*--header-navigation--*/
 .text-logo {
   font-family: var(--secondary-font-family);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.192;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 .logo-text-studio {
   color: var(--primary-text-color);
-}
-.nav-buttons {
-  cursor: pointer;
-  background-color: var(--background-origin)
 }
 .nav-link:hover {
   color: var(--accent-color);
@@ -48,21 +43,19 @@
   color: var(--accent-color);
 }
 .text-nav-buttons {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.143;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: currentColor;
 }
 .nav-accent {
   color: var(--accent-color);
 }
 .text-nav-contacts {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.143;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
@@ -72,11 +65,11 @@
   background-color: var(--background-first-composite);
 }
 .title-hero {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.363;
+  line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--third-text-color);
 }
 .button-order {
@@ -84,10 +77,9 @@
   background-color: var(--accent-color) 
 }
 .text-button-order {
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--third-text-color);
 }
@@ -97,16 +89,15 @@
 }
 
 .title-text {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.143;
+  line-height: 1.14;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-}
+  text-transform: uppercase;
+  }
 .text-about {
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
@@ -115,7 +106,7 @@
 .title-section {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.166;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -125,14 +116,14 @@
 .title-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.188;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 .text-about-name {
   font-size: 16px;
-  line-height: 1.188;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
@@ -148,14 +139,17 @@
 .text-address {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
+}
+.style-text {
+  font-style: normal;
 }
 .text-footer-contacts {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -173,10 +167,16 @@
   background-color: var(--background-second-composite);
   border-radius: 4px;
 }
+.portfolio-buttons:hover {
+  color: var(--third-text-color);
+  background-color:  var(--accent-color);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
 .text-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.625;
+  line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -191,7 +191,7 @@
 .text-about-img {
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
